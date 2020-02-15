@@ -15,6 +15,7 @@ for(let x=1;x<=pageContainer;x++){
     const list = document.querySelector(".pageList:nth-child(" + x + ")" );
     list.addEventListener("click",function(){
         pageReset();
+        list.style="color:#F05F40;"
         const page = document.querySelector(".page:nth-child(" + x + ")" );
         page.style = "display:flex;"
     });
@@ -27,4 +28,13 @@ function pageReset(){
         const page = document.querySelector(".page:nth-child(" + x + ")" );
         page.style = "display:none;"
     }
+
+
+    const pageContainer = document.querySelector(".page-container").childElementCount;
+
+    for(let x=1;x<=pageContainer;x++){
+        const list = document.querySelector(".pageList:nth-child(" + x + ")" );
+        list.style="color:#FFFFFF;"
+    }
+
 };

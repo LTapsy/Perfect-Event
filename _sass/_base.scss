@@ -546,7 +546,7 @@ footer{
         justify-content: center;
         align-items: center;
         .service-box{
-            filter: drop-shadow(0 15px 15px #0000002a);
+            filter: drop-shadow(0 15px 15px #00000013);
             background:white;
             border-radius: 10px;
             width:100%;
@@ -579,7 +579,7 @@ footer{
             justify-content: center;
             align-items: center;
             .service-box{
-                filter: drop-shadow(0 15px 15px #0000002a);
+                filter: drop-shadow(0 15px 15px #0000000e);
                 background:white;
                 border-radius: 10px;
                 width:100%;
@@ -630,4 +630,18 @@ footer{
             }
         }
     }
+}
+
+
+@media (max-width: 768px) {
+
+    #portfolio{
+        .container-fluid{
+            .no-gutter{
+                padding:30px 0;
+            }
+        }
+    }
+
+
 }
