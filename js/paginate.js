@@ -8,6 +8,8 @@ for(let x=1;x<=portfolioContainer;x++){
 const firstPage = document.querySelector(".page:nth-child(1)" );
 firstPage.style = "display:flex;"
 
+const list = document.querySelector(".pageList:nth-child(1)" );
+list.style = "color:#F05F40;";
 
 const pageContainer = document.querySelector(".page-container").childElementCount;
 
